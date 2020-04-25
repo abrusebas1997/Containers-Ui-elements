@@ -11,12 +11,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
+        VStack(alignment: .center, spacing: 20) {
+            
+        
+        Text("Hello")
         Button(action: {
 //            TODO
         }) {
             Image("donut")
+                .renderingMode(.original)
         }
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
